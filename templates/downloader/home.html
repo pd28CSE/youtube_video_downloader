@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <form action="{% url 'downloader:home' %}" method="post">
+        {% csrf_token %}
+        
+        <br>
+        <input type="url" name="url" id="urlid" placeholder="Enter a Video URL" required=true>
+        <label for="video">Select Type:</label>
+        <select id="video" name="convertion-type">
+        <option value="audio">Mp3</option>
+        <option value="video">Video</option>
+        </select>
+        <br> <br>
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock content %}
