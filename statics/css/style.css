@@ -1,3 +1,35 @@
-h1{
-    color: green;
+body{
+    padding-top:20%;
+    background: rgb(235, 234, 234);
+}
+
+.container{
+    margin: auto;
+    background: #D3E7EC;
+    width: 70%;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 15px lightblue; 
+}
+
+#urlid{
+    width: 90%;
+    font-size: 20px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+    border-color: #007bff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
 }
